@@ -1,0 +1,36 @@
+{
+  "personal": {
+    "email": "info@stuffanddesign.com"
+  },
+  "medias": [
+    { "type": "github", "link": "https://github.com/bigapplemonkey/" },
+    { "type": "linkedin", "link": "https://www.linkedin.com/in/jorgeasuaje/" },
+    { "type": "dribbble", "link": "https://dribbble.com/stuffanddesign" }
+  ],
+  "works": [
+    {
+      "type": "Web Development",
+      "feature_image": "https://source.unsplash.com/collection/8497941/430x270",
+      "title": "Discover the Best Resources to Enhance",
+      "tags": "Branding / UI.UX"
+    },
+    {
+      "type": "UI Design",
+      "feature_image": "https://source.unsplash.com/collection/8497941/430x271",
+      "title": "Discover the Best Resources to Enhance",
+      "tags": "Branding / UI.UX"
+    },
+    {
+      "type": "Motion",
+      "feature_image": "https://source.unsplash.com/collection/8497941/430x272",
+      "title": "Discover the Best Resources to Enhance",
+      "tags": "Branding / UI.UX"
+    },
+    {
+      "type": "Graphic Design",
+      "feature_image": "https://source.unsplash.com/collection/8497941/430x273",
+      "title": "Discover the Best Resources to Enhance",
+      "tags": "Branding / UI.UX"
+    }
+  ]
+}

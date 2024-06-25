@@ -1,0 +1,14 @@
+// CSS Properties
+:root {
+  --primary-color-white: #fff;
+  --primary-color-black: #0500e8;
+}
+
+// SCSS Variables
+$font-family-base: 'gamay-editorial', sans-serif;
+
+// Define media breakpoints
+$mobile-breakpoint: 640px;
+$tablet-breakpoint: 1040px;
+$desktop-breakpoint: 992px;
+$large-desktop-breakpoint: 1200px;
