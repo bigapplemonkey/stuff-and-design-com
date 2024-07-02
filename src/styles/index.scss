@@ -1,26 +1,35 @@
 // External
 @import 'normalize.css';
-// @import url('https://use.typekit.net/ipv7pat.css');
-// @import url('https://use.typekit.net/fhj1fwz.css');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
 
 // Variables
 @import 'utilities/variables';
 
+// Utils
+@import 'utilities/mixins';
+
 // Base
-@import 'base/global';
 @import 'base/reset';
+@import 'base/global';
 @import 'base/typography';
 @import 'base/colors';
 
 // Animations
-// @import 'animations/transition';
+@import 'animations/HoverImageAnimation';
 
 // pages
 // @import 'pages/work';
 
 // Components
-// @import 'components/App';
+@import 'components/Navigation';
+@import 'components/LocalTime';
+@import 'components/NavLinks';
+@import 'components/AvailabilityMarquee';
+@import 'components/Hero';
+@import 'components/LandingFooter';
+@import 'components/EmailCTA';
+@import 'components/SiteStatus';
 
 // Utils
-// @import 'utilities/mixins';
 // @import 'utilities/functions';

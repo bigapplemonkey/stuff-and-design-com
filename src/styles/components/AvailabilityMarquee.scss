@@ -1,0 +1,31 @@
+.availability-container {
+  display: flex;
+  width: 14.4375rem;
+  padding: 0.225rem 0rem;
+  border-radius: 3.125rem;
+  border: map-get($border-sizes, light) solid map-get($colors, black);
+  position: absolute;
+}
+
+.availability-message {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.availability-ellipse {
+  width: 0.5625rem;
+  height: 0.5625rem;
+  background: #6be024;
+  border-radius: 50%;
+}
+
+.availability-container > div > div {
+  min-width: 78%;
+}
+
+@media screen and (max-width: 780px) {
+  .availability-container {
+    display: none;
+  }
+}

@@ -5,7 +5,18 @@
 }
 
 // SCSS Variables
-$font-family-base: 'gamay-editorial', sans-serif;
+$colors: (
+  white: #fff,
+  black: #000,
+  gray: #ccc,
+  gray-type: #808080,
+);
+
+$border-sizes: (
+  light: 0.0625rem,
+);
+
+// $font-family-base: 'gamay-editorial', sans-serif;
 
 // Define media breakpoints
 $mobile-breakpoint: 640px;

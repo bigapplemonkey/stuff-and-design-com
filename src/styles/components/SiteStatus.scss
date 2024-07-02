@@ -1,0 +1,36 @@
+.site-status {
+  padding: 0.425rem;
+  align-self: stretch;
+  background: map-get($colors, gray);
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  gap: 0.35rem;
+}
+
+.site-status .close-button {
+  height: auto;
+  min-width: 0.9rem;
+  border: none;
+  background-color: transparent;
+  padding: 0.1rem;
+  position: relative;
+  bottom: -0.12rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+  .site-status {
+    padding: 0.425rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .site-status {
+    padding: 0.425rem 1rem;
+  }
+}

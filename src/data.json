@@ -1,11 +1,39 @@
 {
+  "site_status": {
+    "message": "Oops! This site is still baking in the web oven. Please check back soon for the finished masterpiece! Feel free to peek at",
+    "link": "https://github.com/bigapplemonkey/stuff-and-design-com"
+  },
   "personal": {
-    "email": "info@stuffanddesign.com"
+    "email": "info@stuffanddesign.com",
+    "status": "Available for Work",
+    "status_color": "6be024"
   },
   "medias": [
-    { "type": "github", "link": "https://github.com/bigapplemonkey/" },
-    { "type": "linkedin", "link": "https://www.linkedin.com/in/jorgeasuaje/" },
-    { "type": "dribbble", "link": "https://dribbble.com/stuffanddesign" }
+    {
+      "name": "Github",
+      "to": "https://github.com/bigapplemonkey",
+      "openInNewTab": true
+    },
+    {
+      "name": "Dribbble",
+      "to": "https://dribbble.com/stuffanddesign",
+      "openInNewTab": true
+    },
+    {
+      "name": "Instagram",
+      "to": "https://instagram.com/stuffanddesign",
+      "openInNewTab": true
+    },
+    {
+      "name": "Codepen",
+      "to": "https://codepen.io/bigapplemonkey",
+      "openInNewTab": true
+    },
+    {
+      "name": "Linkedin",
+      "to": "https://www.linkedin.com/in/jorgeasuaje/",
+      "openInNewTab": true
+    }
   ],
   "works": [
     {
