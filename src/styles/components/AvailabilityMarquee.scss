@@ -29,3 +29,17 @@
     display: none;
   }
 }
+
+@media screen and (min-width: $large-desktop-breakpoint) {
+  .availability-message {
+    margin-right: 0.6rem;
+  }
+
+  .availability-container {
+    width: 16.4375rem;
+  }
+
+  .availability-message {
+    gap: 0.7rem;
+  }
+}

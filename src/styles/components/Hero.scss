@@ -30,6 +30,15 @@
 
 .hero-animation {
   width: 510px;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 .hero-header {
@@ -53,10 +62,6 @@
 @media screen and (max-width: $tablet-breakpoint) {
   .hero-animation {
     width: 430px;
-  }
-
-  .hero-type {
-    font-size: 2.2rem;
   }
 }
 

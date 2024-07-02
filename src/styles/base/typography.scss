@@ -80,3 +80,32 @@ body {
   letter-spacing: 0.03rem;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: $large-desktop-breakpoint) {
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+  .hero-type {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+}
+
+@media screen and (min-width: $large-desktop-breakpoint) {
+  .nav-type,
+  .availability-type,
+  .time-type,
+  .cta-call-type,
+  .cta-email-type {
+    font-size: 1.2rem;
+  }
+  .hero-type {
+    font-size: 2.8rem;
+  }
+
+  .site-status-type {
+    font-size: 1rem;
+  }
+}
