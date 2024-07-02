@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import AnimatedText from './animations/AnimatedText';
 import { Link } from 'react-router-dom';
-import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 const NavLink = ({ name, to, openInNewTab = false, isUnderline = true }) => {
   const [isHovered, setIsHovered] = useState(false);
