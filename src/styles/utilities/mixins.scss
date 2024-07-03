@@ -1,0 +1,15 @@
+@mixin inconsolata-semi-bold {
+  font-family: 'Inconsolata', monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+@mixin inconsolata-black {
+  font-family: 'Inconsolata', monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}

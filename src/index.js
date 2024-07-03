@@ -1,19 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.scss';
-// import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { DataContextProvider } from './context/DataContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route path="/*" element={<App />} />
-      </Routes>
-    </Router>
+    <DataContextProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<App />} />
+        </Routes>
+      </Router>
+    </DataContextProvider>
   </React.StrictMode>
 );
 

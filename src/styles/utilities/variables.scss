@@ -5,10 +5,22 @@
 }
 
 // SCSS Variables
-$font-family-base: 'gamay-editorial', sans-serif;
+$colors: (
+  white: #fff,
+  black: #000,
+  gray: #ccc,
+  gray-type: #808080,
+);
+
+$border-sizes: (
+  light: 0.0625rem,
+);
+
+// $font-family-base: 'gamay-editorial', sans-serif;
 
 // Define media breakpoints
 $mobile-breakpoint: 640px;
 $tablet-breakpoint: 1040px;
 $desktop-breakpoint: 992px;
-$large-desktop-breakpoint: 1200px;
+$large-desktop-breakpoint: 1500px;
+$extra-large-breakpoint: 1800px;
