@@ -27,7 +27,7 @@ const HoverImageAnimation = ({
     }
   };
 
-  const handleHoverStart = event => {
+  const handleHoverStart = () => {
     if (!isMobile) {
       setIsHovered(true);
     }
