@@ -81,6 +81,15 @@ body {
   text-transform: uppercase;
 }
 
+.loading-type {
+  @include inconsolata-semi-bold;
+  color: map-get($colors, black);
+  font-size: 0.9rem;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: $large-desktop-breakpoint) {
 }
 
@@ -98,7 +107,8 @@ body {
   .availability-type,
   .time-type,
   .cta-call-type,
-  .cta-email-type {
+  .cta-email-type,
+  .loading-type {
     font-size: 1.2rem;
   }
   .hero-type {
