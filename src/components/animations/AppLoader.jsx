@@ -38,7 +38,7 @@ const AppLoader = ({ setLoadingComplete }) => {
     await window.start({
       width: '100vw',
       height: '100vh',
-      transition: { duration: 0.3, ease: CUBIC_BEZIER },
+      transition: { duration: 0.2, ease: CUBIC_BEZIER },
     });
     await overlay.start({ opacity: 0, transition: { duration: 0.1 } });
     await window.start({
@@ -53,7 +53,7 @@ const AppLoader = ({ setLoadingComplete }) => {
         <motion.div className="loading-content" animate={containerControls}>
           <div className="loading-title-bar">
             <div className="loading-title loading-type">
-              Loading...<span className="loading-pulsing">.</span>
+              Loading..<span className="loading-pulsing">.</span>
               Stuff_and_Design
               <span className="loading-welcome"> (Welcome)</span>
             </div>
