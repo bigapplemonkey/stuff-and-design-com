@@ -27,9 +27,8 @@ const AppLoader = ({ setLoadingComplete }) => {
       });
     }, 37);
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     return () => clearInterval(interval);
-  }, []);
+  });
 
   const playAnimations = async (container, window, overlay) => {
     await container.start({
