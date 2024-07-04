@@ -5,6 +5,7 @@ import BarcodeSVG from './svgs/BarcodeSVG';
 import GlobeSVG from './svgs/GlobeSVG';
 import TargetSVG from './svgs/TargetSVG';
 import { DataContext } from '../context/DataContext';
+import HoverImageAnimation from './animations/HoverImageAnimation';
 
 const LandingFooter = () => {
   const { data, loading, error } = useContext(DataContext);
@@ -21,7 +22,9 @@ const LandingFooter = () => {
     <footer className="landing-footer">
       <div className="landing-footer-content">
         <NavLinks links={data.medias} isUnderline={false} />
-        <EmailCTA email={data.personal.email} />
+        <HoverImageAnimation src="/hi-emoji-min.png" alt="Hello emoji">
+          <EmailCTA email={data.personal.email} />
+        </HoverImageAnimation>
       </div>
       <div className="graphic-elements centered">
         <div className="barcode">

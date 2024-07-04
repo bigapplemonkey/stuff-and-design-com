@@ -1,0 +1,16 @@
+.hoverable-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoverable-image {
+  width: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation-play-state: paused !important;
+}
