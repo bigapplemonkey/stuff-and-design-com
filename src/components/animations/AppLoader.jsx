@@ -18,14 +18,14 @@ const AppLoader = ({ setLoadingComplete }) => {
 
     const interval = setInterval(() => {
       setProgress(prevProgress => {
-        const nextProgress = prevProgress >= 100 ? 100 : prevProgress + 1;
+        const nextProgress = prevProgress >= 100 ? 100 : prevProgress + 2;
         if (nextProgress === 100) {
           clearInterval(interval);
           animateLoading();
         }
         return nextProgress;
       });
-    }, 37);
+    }, 45);
 
     return () => clearInterval(interval);
   });
