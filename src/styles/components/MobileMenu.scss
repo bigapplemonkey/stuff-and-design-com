@@ -1,0 +1,131 @@
+.mobile-menu {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+}
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.375rem 1rem;
+  border-radius: 3.125rem;
+  border: map-get($border-sizes, light) solid map-get($colors, black);
+  transition:
+    width $mobile-menu-transition ease-out $mobile-menu-transition,
+    border-radius $mobile-menu-transition ease-out $mobile-menu-transition;
+  width: 6.25rem;
+  position: relative;
+  cursor: pointer;
+  transform-origin: right;
+  background: map-get($colors, off-white);
+}
+
+.mobile-menu.selected .menu-button {
+  width: 11.25rem;
+  border-top-right-radius: 1.125rem;
+  border-top-left-radius: 1.125rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  transition-delay: 0s;
+}
+
+.menu-button-close {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+
+  transition:
+    width $mobile-menu-transition cubic-bezier(0.25, 0.1, 0.25, 1),
+    height $mobile-menu-transition cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.mobile-menu.selected .menu-button-close {
+  margin-right: 0.8rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.mobile-menu-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-right: map-get($border-sizes, light) solid map-get($colors, black);
+  border-left: map-get($border-sizes, light) solid map-get($colors, black);
+  border-bottom: map-get($border-sizes, light) solid map-get($colors, black);
+  overflow: hidden;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform $mobile-menu-transition ease-out 0s;
+  border-bottom-right-radius: 0.9rem;
+  border-bottom-left-radius: 0.9rem;
+  background: map-get($colors, off-white);
+}
+
+.mobile-menu.selected .mobile-menu-links {
+  transform: scaleY(1);
+  transition-delay: $mobile-menu-transition;
+}
+
+.mobile-menu-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.95rem;
+  text-decoration: none;
+  color: map-get($colors, black);
+}
+
+.link-title {
+  position: relative;
+  perspective: 60px;
+}
+
+.in-view .link-title:before,
+.in-view .link-title:after {
+  content: '#';
+  position: absolute;
+  top: 0.12rem;
+  height: 0.75rem;
+  animation: rotate 1.6s linear infinite;
+}
+
+.in-view .link-title:before {
+  left: -1.3rem;
+}
+
+.in-view .link-title:after {
+  right: -1.3rem;
+}
+
+.in-view .link-title {
+  opacity: 0.5;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(1turn);
+  }
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .mobile-menu {
+    display: block;
+  }
+}

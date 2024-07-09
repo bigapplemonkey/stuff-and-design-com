@@ -1,7 +1,5 @@
 // CSS Properties
 :root {
-  --primary-color-white: #fff;
-  --primary-color-black: #0500e8;
 }
 
 // SCSS Variables
@@ -17,7 +15,8 @@ $border-sizes: (
   light: 0.0625rem,
 );
 
-// $font-family-base: 'gamay-editorial', sans-serif;
+// Animations
+$mobile-menu-transition: 0.2s;
 
 // Define media breakpoints
 $mobile-breakpoint: 640px;

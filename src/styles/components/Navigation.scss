@@ -22,16 +22,6 @@
   flex: 1 0 0;
 }
 
-.nav-menu {
-  display: none;
-  padding: 0.375rem 0.75rem;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-  border-radius: 3.125rem;
-  border: map-get($border-sizes, light) solid map-get($colors, black);
-}
-
 @media screen and (max-width: $tablet-breakpoint) {
   .nav-content {
     padding: 1rem 1.25rem;
@@ -41,10 +31,6 @@
 @media screen and (max-width: $mobile-breakpoint) {
   .nav-content {
     padding: 1rem;
-  }
-
-  .nav-menu {
-    display: flex;
   }
 
   .nav .nav-links {

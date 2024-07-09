@@ -90,6 +90,15 @@ body {
   text-transform: uppercase;
 }
 
+.menu-link-type {
+  @include inconsolata-semi-bold;
+  color: map-get($colors, black);
+  font-size: 1rem;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: $large-desktop-breakpoint) {
 }
 

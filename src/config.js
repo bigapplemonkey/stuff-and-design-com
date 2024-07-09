@@ -13,6 +13,12 @@ const config = {
     FILTER_BUTTON_DURATION: 0.3,
     CUBIC_BEZIER: [0.24, 0.75, 0.34, 0.96],
   },
+  NAV_LINKS: [
+    { name: 'Home', to: '/', openInNewTab: false, isDisabled: false },
+    { name: 'Work', to: '/', openInNewTab: false, isDisabled: true },
+    { name: 'About', to: '/', openInNewTab: false, isDisabled: true },
+    { name: 'Contact', to: '/', openInNewTab: false, isDisabled: true },
+  ],
 };
 
-export const { STYLES, ANIMATION } = config;
+export const { STYLES, ANIMATION, NAV_LINKS } = config;
