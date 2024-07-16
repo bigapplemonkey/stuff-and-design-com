@@ -72,7 +72,7 @@ const WorkSection = () => {
       setSelectedFilters(['All projects']);
       updateURL(['All projects']);
     }
-  }, [searchParams]);
+  }, [searchParams, updateURL]);
 
   const updateURL = filters => {
     setSearchParams({ filter: filters.join(',') });
