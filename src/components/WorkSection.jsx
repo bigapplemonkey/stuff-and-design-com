@@ -57,10 +57,13 @@ const WorkSection = () => {
   const [selectedFilters, setSelectedFilters] = useState(['All projects']);
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const filters = useMemo(() => [
-    'All projects',
-    ...new Set(staticWorkData.flatMap(work => work.labels)),
-  ]);
+  const filters = useMemo(
+    () => [
+      'All projects',
+      ...new Set(staticWorkData.flatMap(work => work.labels)),
+    ],
+    []
+  );
 
   const updateURL = useCallback(
     filters => {
