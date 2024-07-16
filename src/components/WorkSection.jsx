@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import WorkGrid from './WorkGrid';
 import Filter from './Filter';
 import { useSearchParams } from 'react-router-dom';
@@ -62,30 +62,27 @@ const WorkSection = () => {
     ...new Set(staticWorkData.flatMap(work => work.labels)),
   ];
 
-  // Update selectedFilters from URL parameters
-  useEffect(() => {
-    const filterParams = searchParams.get('filter');
-    if (filterParams) {
-      const filtersFromUrl = filterParams.split(',');
-      setSelectedFilters(filtersFromUrl);
-    } else {
-      setSelectedFilters(['All projects']);
-      updateURL(['All projects']);
-    }
-  }, [searchParams, updateURL]);
-
-  const updateURL = filters => {
-    setSearchParams({ filter: filters.join(',') });
-  };
+  const updateURL = useCallback(
+    filters => {
+      setSearchParams({ filter: filters.join(',') });
+    },
+    [setSearchParams]
+  );
 
   const toggleFilter = filter => {
     if (filter === 'All projects') {
       setSelectedFilters(['All projects']);
       updateURL(['All projects']);
     } else {
-      const newFilters = selectedFilters.includes(filter)
-        ? selectedFilters.filter(f => f !== filter)
-        : [...selectedFilters.filter(f => f !== 'All projects'), filter];
+      let newFilters = [];
+
+      if (selectedFilters.includes('All projects')) {
+        newFilters = [filter];
+      } else {
+        newFilters = selectedFilters.includes(filter)
+          ? selectedFilters.filter(f => f !== filter)
+          : [...selectedFilters, filter];
+      }
 
       setSelectedFilters(
         newFilters.length === 0 ? ['All projects'] : newFilters
@@ -95,14 +92,20 @@ const WorkSection = () => {
   };
 
   useEffect(() => {
-    if (
-      selectedFilters.length === filters.length - 1 &&
-      !selectedFilters.includes('All projects')
-    ) {
-      setSelectedFilters(['All projects']);
-      updateURL(['All projects']);
+    const filterParams = searchParams.get('filter');
+    if (filterParams) {
+      const filtersFromUrl = filterParams.split(',');
+      setSelectedFilters(filtersFromUrl);
+    } else {
+      if (
+        selectedFilters.length === filters.length - 1 &&
+        !selectedFilters.includes('All projects')
+      ) {
+        setSelectedFilters(['All projects']);
+        updateURL(['All projects']);
+      }
     }
-  }, [selectedFilters, filters]);
+  }, [selectedFilters, filters, searchParams, updateURL]);
 
   return (
     <section className="work-container">
