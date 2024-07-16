@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useMemo } from 'react';
 import WorkGrid from './WorkGrid';
 import Filter from './Filter';
 import { useSearchParams } from 'react-router-dom';
@@ -57,10 +57,10 @@ const WorkSection = () => {
   const [selectedFilters, setSelectedFilters] = useState(['All projects']);
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const filters = [
+  const filters = useMemo(() => [
     'All projects',
     ...new Set(staticWorkData.flatMap(work => work.labels)),
-  ];
+  ]);
 
   const updateURL = useCallback(
     filters => {
