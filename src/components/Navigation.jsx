@@ -7,12 +7,14 @@ import SiteStatus from './SiteStatus';
 import MobileMenu from './MobileMenu';
 import { NAV_LINKS } from '../config';
 
-const Navigation = () => {
+const Navigation = ({ enableStatus = false }) => {
   const { data } = useContext(DataContext);
 
   return (
     <header className="nav">
-      {data.site_status && <SiteStatus status={data.site_status} />}
+      {enableStatus && data.site_status && (
+        <SiteStatus status={data.site_status} />
+      )}
       <div className="nav-content">
         <LocalTime />
         <AvailabilityMarquee />

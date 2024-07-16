@@ -1,0 +1,27 @@
+.work-grid {
+  display: grid;
+  column-gap: 1.875rem;
+  row-gap: 2.3 * 1.875rem;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: $tablet-breakpoint) {
+  .work-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .work-grid {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1.5 * 1.875rem;
+  }
+
+  .work-card {
+    gap: 1.3rem;
+  }
+}

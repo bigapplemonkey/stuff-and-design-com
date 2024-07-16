@@ -1,0 +1,36 @@
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: #0f0f0f;
+  transform-origin: bottom;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+// .slide-in::before {
+//   content: '';
+//   position: absolute;
+//   top: 50%;
+//   right: 50%;
+//   width: 152px; /* Set the width */
+//   height: 99px; /* Maintain aspect ratio */
+//   background-image: url('../../public/logo-min-footer.png');
+//   background-size: contain; /* Make sure the image fits within the width */
+//   background-position: center;
+//   background-repeat: no-repeat;
+// }
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: #0f0f0f;
+  transform-origin: top;
+  z-index: 1000;
+  overflow: hidden;
+}

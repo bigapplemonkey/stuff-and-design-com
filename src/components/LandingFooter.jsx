@@ -6,8 +6,9 @@ import GlobeSVG from './svgs/GlobeSVG';
 import TargetSVG from './svgs/TargetSVG';
 import { DataContext } from '../context/DataContext';
 import HoverImageAnimation from './animations/HoverImageAnimation';
+import '../components/web-components/FooterLogo.js';
 
-const LandingFooter = () => {
+const LandingFooter = ({ showFooterLogo = false }) => {
   const { data, loading, error } = useContext(DataContext);
 
   if (loading) {
@@ -20,21 +21,29 @@ const LandingFooter = () => {
 
   return (
     <footer className="landing-footer">
-      <div className="landing-footer-content">
-        <NavLinks links={data.medias} isUnderline={false} />
-        <HoverImageAnimation src="/hi-emoji-min.png" alt="Hello emoji">
-          <EmailCTA email={data.personal.email} />
-        </HoverImageAnimation>
-      </div>
-      <div className="graphic-elements centered">
-        <div className="barcode">
-          <BarcodeSVG />
+      {showFooterLogo && (
+        <div className="landing-footer-top">
+          <footer-logo></footer-logo>
         </div>
-        <div className="target">
-          <TargetSVG />
+      )}
+
+      <div className="landing-footer-bottom">
+        <div className="landing-footer-content">
+          <NavLinks links={data.medias} isUnderline={false} />
+          <HoverImageAnimation src="/hi-emoji-min.png" alt="Hello emoji">
+            <EmailCTA email={data.personal.email} />
+          </HoverImageAnimation>
         </div>
-        <div className="globe">
-          <GlobeSVG />
+        <div className="graphic-elements centered">
+          <div className="barcode">
+            <BarcodeSVG />
+          </div>
+          <div className="target">
+            <TargetSVG />
+          </div>
+          <div className="globe">
+            <GlobeSVG />
+          </div>
         </div>
       </div>
     </footer>

@@ -19,7 +19,7 @@ const Hero = () => {
           className="hero-animation"
           src="/hero-animation-min-4M.gif"
           alt="Logo Animation"
-          loading="auto"
+          loading="lazy"
         />
         <h1 className="hero-header hero-type non-marquee">
           <span>Front-End</span>

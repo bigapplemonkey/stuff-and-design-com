@@ -79,7 +79,8 @@
   align-items: center;
 }
 
-.mobile-menu-link a {
+.mobile-menu-link a,
+.disabled-link {
   display: flex;
   justify-content: center;
   align-items: center;
