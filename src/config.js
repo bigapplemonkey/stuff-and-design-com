@@ -15,7 +15,7 @@ const config = {
   },
   NAV_LINKS: [
     { name: 'Home', to: '/', openInNewTab: false, isDisabled: false },
-    { name: 'Work', to: '/', openInNewTab: false, isDisabled: true },
+    { name: 'Work', to: '/work', openInNewTab: false, isDisabled: false },
     { name: 'About', to: '/', openInNewTab: false, isDisabled: true },
     { name: 'Contact', to: '/', openInNewTab: false, isDisabled: true },
   ],
