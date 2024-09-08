@@ -10,10 +10,10 @@ const WorkSection = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const { data } = useContext(DataContext);
 
-  const filters = useMemo(
-    () => ['All projects', ...new Set(data.works.flatMap(work => work.labels))],
-    []
-  );
+  const filters = useMemo(() => [
+    'All projects',
+    ...new Set(data.works.flatMap(work => work.labels)),
+  ]);
 
   const updateURL = useCallback(
     filters => {
