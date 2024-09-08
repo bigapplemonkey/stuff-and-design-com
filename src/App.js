@@ -29,7 +29,7 @@ function App() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: loadingComplete ? 1 : 0 }}
-        transition={{ duration: 0.5, delay: 0.1, ease: CUBIC_BEZIER }}
+        transition={{ duration: 0.8, delay: 0.1, ease: CUBIC_BEZIER }}
       >
         <AnimatePresence mode="wait">
           <Routes location={location} key={key}>
