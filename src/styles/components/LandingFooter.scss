@@ -5,6 +5,10 @@
   justify-content: center;
   align-items: center;
   align-self: stretch;
+
+  &.is-dark {
+    background-color: map-get($colors, black);
+  }
 }
 
 .landing-footer-top {
@@ -12,7 +16,8 @@
   padding: 1rem 2.5rem;
   justify-content: right;
   align-items: center;
-  align-self: stretch;
+  max-width: 1880px;
+  width: 100%;
 }
 
 .landing-footer-bottom {

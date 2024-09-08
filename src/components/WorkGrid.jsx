@@ -12,7 +12,7 @@ const WorkGrid = ({ selectedFilters, works }) => {
       {filteredWorkData.map((work, index) => (
         <WorkCard
           key={work.title}
-          src={work.src}
+          src={work.cardSrc}
           alt={work.title}
           title={work.title}
           labels={work.labels}

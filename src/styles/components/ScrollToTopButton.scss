@@ -47,6 +47,10 @@
   color: map-get($colors, white);
 }
 
+.scroll-to-top:hover .button-to-top.is-dark {
+  background-color: map-get($colors, hover-gray);
+}
+
 .to-top-arrow {
   width: 1.4375rem;
   height: 0.8125rem;

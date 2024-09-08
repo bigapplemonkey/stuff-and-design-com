@@ -134,7 +134,72 @@ body {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: $large-desktop-breakpoint) {
+.is-dark {
+  .cta-call-type,
+  .cta-email-type {
+    color: map-get($colors, off-white2);
+  }
+}
+
+.landing-footer.is-dark {
+  .nav-type {
+    color: map-get($colors, off-white2);
+  }
+}
+
+.work-back-type {
+  @include montserrat-black;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+}
+
+.more-work-header-type {
+  @include montserrat-semi-bold;
+  color: map-get($colors, off-white2);
+  font-size: 1rem;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+}
+
+.work-detail-paragraph-type {
+  @include inconsolata-regular;
+  color: #e6e6e6;
+  font-size: 1.25rem;
+  line-height: 120%; /* 1.5rem */
+}
+
+.work-detail-title-type {
+  @include montserrat-bold;
+  color: #000;
+  font-size: 3.375rem;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.work-detail-summary-type {
+  @include inconsolata-regular;
+  color: #000;
+  font-size: 1.25rem;
+  line-height: 120%;
+}
+
+.work-kind-tags-type,
+.work-kind-tools-type {
+  @include inconsolata-medium;
+  color: #000;
+  font-size: 0.9375rem;
+  letter-spacing: 0.0375rem;
+}
+
+.work-tag-type {
+  @include inconsolata-medium;
+  color: #000;
+  font-size: 0.9375rem;
+  letter-spacing: 0.0375rem;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: $tablet-breakpoint) {
@@ -144,6 +209,9 @@ body {
 }
 
 @media screen and (max-width: $mobile-breakpoint) {
+  .work-detail-title-type {
+    font-size: 2.3rem;
+  }
 }
 
 @media screen and (min-width: $large-desktop-breakpoint) {

@@ -1,3 +1,11 @@
+@mixin inconsolata-regular {
+  font-family: 'Inconsolata', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
 @mixin inconsolata-semi-bold {
   font-family: 'Inconsolata', monospace;
   font-optical-sizing: auto;
@@ -18,6 +26,30 @@
   font-family: 'Inconsolata', monospace;
   font-optical-sizing: auto;
   font-weight: 900;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+@mixin montserrat-semi-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; //semi-bold
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+@mixin montserrat-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; //bold
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+@mixin montserrat-black {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900; //black
   font-style: normal;
   font-variation-settings: 'wdth' 100;
 }

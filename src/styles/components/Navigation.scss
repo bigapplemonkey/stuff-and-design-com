@@ -22,6 +22,18 @@
   flex: 1 0 0;
 }
 
+.is-dark {
+  &.nav {
+    border: none;
+  }
+
+  .nav-content {
+    opacity: 1;
+    backdrop-filter: none;
+    justify-content: right;
+  }
+}
+
 @media screen and (max-width: $tablet-breakpoint) {
   .nav-content {
     padding: 1rem 1.25rem;

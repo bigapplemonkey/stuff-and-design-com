@@ -5,6 +5,7 @@
   gap: 2.25rem;
   flex-shrink: 0;
   min-height: 300px;
+  cursor: pointer;
 }
 
 .work-card-image,
@@ -50,6 +51,10 @@
   position: relative;
 }
 
+.underline.is-dark {
+  color: map-get($colors, off-white2);
+}
+
 .underline:after {
   content: '';
   position: absolute;
@@ -58,6 +63,10 @@
   width: 0%;
   border-bottom: 0.063rem solid map-get($colors, black);
   transition: 0.5s cubic-bezier(0, 0, 0.25, 1);
+}
+
+.underline.is-dark:after {
+  border-bottom-color: map-get($colors, off-white2);
 }
 
 .work-card:hover .underline:after {

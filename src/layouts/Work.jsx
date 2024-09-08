@@ -5,7 +5,7 @@ import WorkSection from '../components/WorkSection';
 const Work = () => {
   return (
     <>
-      <Navigation />
+      <Navigation isDark />
       <WorkSection />
       <LandingFooter showFooterLogo />
     </>

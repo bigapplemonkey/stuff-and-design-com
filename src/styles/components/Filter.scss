@@ -4,6 +4,8 @@
   align-items: center;
   border-radius: 3.125rem;
   border: 1px solid map-get($colors, black);
+  cursor: pointer;
+  white-space: nowrap;
   transition:
     background-color 0.4s ease-out,
     color 0.4s ease-out;
@@ -13,6 +15,10 @@
     background: map-get($colors, black);
   }
 }
+
+// .filter:hover {
+//   background-color: map-get($colors, hover-gray);
+// }
 
 .filter-close {
   width: 0;

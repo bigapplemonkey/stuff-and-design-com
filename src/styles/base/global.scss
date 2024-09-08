@@ -33,6 +33,12 @@ a:active {
   flex-shrink: 0;
 }
 
+.relative {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 .full-height {
   height: 100vh;
   // overflow-y: auto;

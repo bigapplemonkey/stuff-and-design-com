@@ -7,6 +7,7 @@ import AppLoader from './components/animations/AppLoader';
 import { ANIMATION } from './config';
 import Work from './layouts/Work';
 import TransitionWrapper from './components/animations/TransitionWrapper';
+import WorkDetail from './layouts/WorkDetail';
 
 function App() {
   const location = useLocation();
@@ -48,6 +49,15 @@ function App() {
                 </TransitionWrapper>
               }
             />
+            <Route
+              path="/work/:titleSlug"
+              element={
+                <TransitionWrapper>
+                  <WorkDetail />
+                </TransitionWrapper>
+              }
+            />
+
             <Route path="/about" element={<h1>About</h1>} />
             <Route path="/contact" element={<h1>Contact</h1>} />
           </Routes>
