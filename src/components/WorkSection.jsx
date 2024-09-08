@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback, useContext } from 'react';
+import { useEffect, useState, useCallback, useContext, useMemo } from 'react';
 import WorkGrid from './WorkGrid';
 import Filter from './Filter';
 import { useSearchParams } from 'react-router-dom';
@@ -10,10 +10,10 @@ const WorkSection = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const { data } = useContext(DataContext);
 
-  const filters = [
-    'All projects',
-    ...new Set(data.works.flatMap(work => work.labels)),
-  ];
+  const filters = useMemo(
+    () => ['All projects', ...new Set(data.works.flatMap(work => work.labels))],
+    [data.works]
+  );
 
   const updateURL = useCallback(
     filters => {
