@@ -46,9 +46,12 @@ const WorkSection = () => {
 
   useEffect(() => {
     const filterParams = searchParams.get('filter');
+
     if (filterParams) {
       const filtersFromUrl = filterParams.split(',');
-      setSelectedFilters(filtersFromUrl);
+      if (JSON.stringify(filtersFromUrl) !== JSON.stringify(selectedFilters)) {
+        setSelectedFilters(filtersFromUrl);
+      }
     } else {
       if (
         selectedFilters.length === filters.length - 1 &&
@@ -58,7 +61,7 @@ const WorkSection = () => {
         updateURL(['All projects']);
       }
     }
-  }, [selectedFilters, filters, searchParams, updateURL]);
+  }, [searchParams, filters, selectedFilters, updateURL]);
 
   return (
     <section className="work-container">
