@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const UpIcon = () => (
+const UpIcon = ({ isDark }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="23"
@@ -9,8 +9,14 @@ const UpIcon = () => (
     fill="none"
   >
     <g clipPath="url(#clip0_304_101)">
-      <path d="M11.6673 0.853821L0.353577 12.1675" stroke="black" />
-      <path d="M22.2739 12.1673L10.9602 0.853577" stroke="black" />
+      <path
+        d="M11.6673 0.853821L0.353577 12.1675"
+        stroke={isDark ? 'white' : 'black'}
+      />
+      <path
+        d="M22.2739 12.1673L10.9602 0.853577"
+        stroke={isDark ? 'white' : 'black'}
+      />
     </g>
     <defs>
       <clipPath id="clip0_304_101">
@@ -25,7 +31,7 @@ const UpIcon = () => (
   </svg>
 );
 
-const ScrollToTopButton = ({ offset = 70 }) => {
+const ScrollToTopButton = ({ offset = 70, isDark }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -48,9 +54,11 @@ const ScrollToTopButton = ({ offset = 70 }) => {
       className={`scroll-to-top ${isVisible ? 'visible' : ''}`}
       onClick={handleScrollToTop}
     >
-      <div className="button-to-top filter-type">Scroll to Top</div>
+      <div className={`button-to-top filter-type${isDark ? ' is-dark' : ''}`}>
+        Scroll to Top
+      </div>
       <div className="to-top-arrow">
-        <UpIcon />
+        <UpIcon isDark={isDark} />
       </div>
     </button>
   );

@@ -7,18 +7,22 @@ import SiteStatus from './SiteStatus';
 import MobileMenu from './MobileMenu';
 import { NAV_LINKS } from '../config';
 
-const Navigation = ({ enableStatus = false }) => {
+const Navigation = ({ enableStatus = false, isDark = false }) => {
   const { data } = useContext(DataContext);
 
   return (
-    <header className="nav">
+    <header className={`nav${isDark ? ' is-dark' : ''}`}>
       {enableStatus && data.site_status && (
         <SiteStatus status={data.site_status} />
       )}
       <div className="nav-content">
-        <LocalTime />
-        <AvailabilityMarquee />
-        <NavLinks links={NAV_LINKS} isUnderline={false} />
+        {!isDark && (
+          <>
+            <LocalTime />
+            <AvailabilityMarquee />
+          </>
+        )}
+        <NavLinks links={NAV_LINKS} isUnderline={false} isDark={isDark} />
         <MobileMenu text="Menu" />
       </div>
     </header>

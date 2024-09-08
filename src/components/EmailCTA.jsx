@@ -1,6 +1,6 @@
 import ArrowSVG from './svgs/ArrowSVG';
 
-const EmailCTA = ({ email }) => {
+const EmailCTA = ({ email, isDark = false }) => {
   const ariaLabel = `Send email to ${email}`;
 
   return (
@@ -9,7 +9,7 @@ const EmailCTA = ({ email }) => {
       <div className="cta-email">
         <div className="cta-email-type">{email}</div>
         <div className="cta-arrow">
-          <ArrowSVG />
+          <ArrowSVG isDark={isDark} />
         </div>
       </div>
     </a>

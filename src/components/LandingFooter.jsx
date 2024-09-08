@@ -8,7 +8,7 @@ import { DataContext } from '../context/DataContext';
 import HoverImageAnimation from './animations/HoverImageAnimation';
 import '../components/web-components/FooterLogo.js';
 
-const LandingFooter = ({ showFooterLogo = false }) => {
+const LandingFooter = ({ showFooterLogo = false, isDark = false }) => {
   const { data, loading, error } = useContext(DataContext);
 
   if (loading) {
@@ -20,10 +20,10 @@ const LandingFooter = ({ showFooterLogo = false }) => {
   }
 
   return (
-    <footer className="landing-footer">
+    <footer className={`landing-footer${isDark ? ' is-dark' : ''}`}>
       {showFooterLogo && (
         <div className="landing-footer-top">
-          <footer-logo></footer-logo>
+          <footer-logo is-dark={isDark ? '' : undefined}></footer-logo>
         </div>
       )}
 
@@ -31,18 +31,18 @@ const LandingFooter = ({ showFooterLogo = false }) => {
         <div className="landing-footer-content">
           <NavLinks links={data.medias} isUnderline={false} />
           <HoverImageAnimation src="/hi-emoji-min.png" alt="Hello emoji">
-            <EmailCTA email={data.personal.email} />
+            <EmailCTA email={data.personal.email} isDark={isDark} />
           </HoverImageAnimation>
         </div>
         <div className="graphic-elements centered">
           <div className="barcode">
-            <BarcodeSVG />
+            <BarcodeSVG isDark={isDark} />
           </div>
           <div className="target">
-            <TargetSVG />
+            <TargetSVG isDark={isDark} />
           </div>
           <div className="globe">
-            <GlobeSVG />
+            <GlobeSVG isDark={isDark} />
           </div>
         </div>
       </div>
