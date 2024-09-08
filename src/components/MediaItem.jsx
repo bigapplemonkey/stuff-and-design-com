@@ -13,9 +13,6 @@ const MediaItem = ({ src, alt, className = '', onLoad }) => {
         { width: 300, type: 'image/png' },
       ].map(({ width, type }) => {
         const ext = type.split('/')[1];
-        console.log(
-          `${src.replace(/\.(jpg|jpeg|png)$/i, '')}-${width}w.${ext}`
-        );
         return (
           <source
             key={`${width}-${ext}`}
