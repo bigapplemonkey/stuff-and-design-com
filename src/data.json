@@ -324,56 +324,29 @@
       ]
     },
     {
-      "title": "Velit esse cillum dolore eu",
+      "title": "Motion Design Collection",
       "labels": ["Motion", "Graphic Design"],
-      "tools": ["react", "framer", "photoshop"],
-      "cardSrc": "https://picsum.photos/808/500",
-      "coverSrc": "https://res.cloudinary.com/jasuaje/video/upload/v1720359486/freecompress_mp4.mp4",
-      "coverAlt": "test",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "tools": ["photoshop", "after effects", "illustrator"],
+      "cardSrc": "/works/animations/animation4.mp4",
+      "coverSrc": "/works/animations/animation1.gif",
+      "coverAlt": "Logo animation",
+      "summary": "A showcase of three distinct animations that blend vibrant pastel colors with sleek design elements. Each animation demonstrates a balance of dynamic movement and refined visual style, pushing the boundaries of modern digital aesthetics",
       "content": [
         {
-          "beforeParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation sit amet, consectetur adipiscing elit, sed do eiusmod.",
+          "beforeParagraph": "This collection features three distinct animations that harmoniously blend vibrant pastel colors with refined design elements. The logo animation delivers a snappy and elegant visual, while the typographic motion brings playful sophistication to text. The final piece explores abstract shapes and colors in a dynamic, experimental style. Together, these animations showcase a seamless integration of dynamic movement and modern aesthetics.",
           "mediaItems": [
             {
-              "src": "https://picsum.photos/seed/1/600/400",
-              "alt": "A beautiful landscape",
+              "src": "/works/animations/animation1.gif",
+              "alt": "Typographic animation",
               "width": 3
             },
             {
-              "src": "https://picsum.photos/seed/1/500/600",
-              "alt": "A serene lake",
+              "src": "/works/animations/animation1.gif",
+              "alt": "Shape animation",
               "width": 3
             }
           ],
-          "afterParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation sit amet, consectetur adipiscing elit, sed do eiusmod."
-        }
-      ]
-    },
-    {
-      "title": "Velit nostrud cillum eu",
-      "labels": ["Motion"],
-      "tools": ["react", "framer", "photoshop"],
-      "cardSrc": "https://picsum.photos/500/500",
-      "coverSrc": "https://res.cloudinary.com/jasuaje/video/upload/v1720359486/freecompress_mp4.mp4",
-      "coverAlt": "test",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-      "content": [
-        {
-          "beforeParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation sit amet, consectetur adipiscing elit, sed do eiusmod.",
-          "mediaItems": [
-            {
-              "src": "https://picsum.photos/seed/1/600/400",
-              "alt": "A beautiful landscape",
-              "width": 3
-            },
-            {
-              "src": "https://picsum.photos/seed/1/500/600",
-              "alt": "A serene lake",
-              "width": 3
-            }
-          ],
-          "afterParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation sit amet, consectetur adipiscing elit, sed do eiusmod."
+          "afterParagraph": null
         }
       ]
     }
