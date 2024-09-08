@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback, useMemo, useContext } from 'react';
+import { useEffect, useState, useCallback, useContext } from 'react';
 import WorkGrid from './WorkGrid';
 import Filter from './Filter';
 import { useSearchParams } from 'react-router-dom';
