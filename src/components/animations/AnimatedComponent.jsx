@@ -28,13 +28,14 @@ const AnimatedComponent = ({
       }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    const currentRef = ref.current; // Capture ref.current in a stable variable
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (currentRef) {
+        observer.unobserve(currentRef); // Use the stable ref value in cleanup
       }
     };
   }, [animateOnce, hasAnimated]);
@@ -44,8 +45,8 @@ const AnimatedComponent = ({
       ref={ref}
       initial={{
         opacity: 0,
-        y: scale ? 0 : 50, // Don't move vertically if scaling
-        scale: scale ? 0.8 : 1, // Scale transformation if `scale` prop is provided
+        y: scale ? 0 : 50,
+        scale: scale ? 0.8 : 1,
       }}
       animate={{
         opacity: animateOnce ? (hasAnimated ? 1 : 0) : isVisible ? 1 : 0,
@@ -57,7 +58,7 @@ const AnimatedComponent = ({
               : 50
             : isVisible
               ? 0
-              : 50, // Apply vertical movement only if no scale
+              : 50,
         scale: scale
           ? animateOnce
             ? hasAnimated
@@ -66,11 +67,11 @@ const AnimatedComponent = ({
             : isVisible
               ? 1
               : 0.8
-          : 1, // Apply scale transformation if `scale` prop is provided
+          : 1,
       }}
       transition={{
         duration: 0.5,
-        delay: delay, // Apply the delay from the `delay` prop
+        delay: delay,
       }}
     >
       {children}
