@@ -336,13 +336,40 @@
           "beforeParagraph": "This collection features three distinct animations that harmoniously blend vibrant pastel colors with refined design elements. The logo animation delivers a snappy and elegant visual, while the typographic motion brings playful sophistication to text. The final piece explores abstract shapes and colors in a dynamic, experimental style. Together, these animations showcase a seamless integration of dynamic movement and modern aesthetics.",
           "mediaItems": [
             {
-              "src": "/works/animations/animation1.gif",
+              "src": "/works/animations/animation2.gif",
               "alt": "Typographic animation",
               "width": 3
             },
             {
-              "src": "/works/animations/animation1.gif",
+              "src": "/works/animations/animation3.mp4",
               "alt": "Shape animation",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
+    },
+    {
+      "title": "UI Animation Experimentations",
+      "labels": ["Motion", "Graphic Design"],
+      "tools": ["figma", "after effects", "illustrator"],
+      "cardSrc": "/works/web_motion/web_motion3.mp4",
+      "coverSrc": "/works/web_motion/web_motion1.mp4",
+      "coverAlt": "Sign up page aniamtion",
+      "summary": "A collection of UI animation explorations, showcasing diverse approaches to enhancing user interactions with dynamic visual effects",
+      "content": [
+        {
+          "beforeParagraph": "This series features a sleek and engaging sign-up page animation that elegantly guides users through the process. A playful button animation injects color and fun into every click, while explorations of UI elements like scroll bars, dimmers, selects, and switches experiment with color and movement to create a lively user experiences.",
+          "mediaItems": [
+            {
+              "src": "/works/web_motion/web_motion3.mp4",
+              "alt": "Button animation",
+              "width": 3
+            },
+            {
+              "src": "/works/web_motion/web_motion2.mp4",
+              "alt": "UI elements animation",
               "width": 3
             }
           ],
