@@ -93,12 +93,12 @@
           "mediaItems": [
             {
               "src": "/works/editorial1/editorial8.jpg",
-              "alt": "Rajasthan magazine spread",
+              "alt": "Hero magazine cover",
               "width": 3
             },
             {
               "src": "/works/editorial1/editorial9.jpg",
-              "alt": "'Rajasthan magazine spread",
+              "alt": "'Hero magazine cover",
               "width": 3
             }
           ],
@@ -273,6 +273,28 @@
             {
               "src": "/works/daihachi/daihachi5.jpg",
               "alt": "Dai Hachi menu design",
+              "width": 6
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
+    },
+    {
+      "title": "420 Times Square Billboard",
+      "labels": ["Graphic Design", "Motion"],
+      "tools": ["photoshop", "after effects", "illustrator"],
+      "cardSrc": "/works/billboard/billboard1.mp4",
+      "coverSrc": "/works/billboard/billboard2.mp4",
+      "coverAlt": "Honeysuckle 420 Times Square billboard",
+      "summary": "This project entailed creating an animation for the Nasdaq billboard and other billboards in Times Square to celebrate 420",
+      "content": [
+        {
+          "beforeParagraph": "The animated billboard campaign, designed for the Nasdaq billboard in Times Square and additional locations, celebrated 420 by highlighting Indigenous Cannabis themes. The design, inspired by Indigenous imagery and natural elements, employed earthy tones and clean typography with simple graphics to deliver a respectful and engaging visual message. Commissioned by Honeysuckle and supported by Tilt Holdings, Little Beach Harvest, the Shinnecock Nation, Connor Green, and the Indigenous Cannabis Coalition, the project aimed to honor and promote Indigenous Cannabis culture.",
+          "mediaItems": [
+            {
+              "src": "https://www.youtube.com/watch?v=6eQLh4RQ9Og&t=3s",
+              "alt": "Honeysuckle 420 Times Square billboard",
               "width": 6
             }
           ],
