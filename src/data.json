@@ -38,7 +38,7 @@
   "works": [
     {
       "title": "Editorial Projects",
-      "labels": ["Graphic Design"],
+      "labels": ["Editorial"],
       "tools": ["photoshop", "indesign", "illustrator"],
       "cardSrc": "/works/editorial1/editorial1.jpg",
       "coverSrc": "/works/editorial1/editorial1.mp4",
@@ -98,7 +98,7 @@
             },
             {
               "src": "/works/editorial1/editorial9.jpg",
-              "alt": "'Hero magazine cover",
+              "alt": "Hero magazine cover",
               "width": 3
             }
           ],
@@ -108,7 +108,7 @@
     },
     {
       "title": "Honeysuckle Spread",
-      "labels": ["Graphic Design"],
+      "labels": ["Editorial"],
       "tools": ["photoshop", "indesign"],
       "cardSrc": "/works/honeysuckle/honey1.jpg",
       "coverSrc": "/works/honeysuckle/honey1.jpg",
@@ -135,7 +135,7 @@
     },
     {
       "title": "Double Scorpio Anniversary",
-      "labels": ["Graphic Design", "Motion"],
+      "labels": ["Digital Marketing", "Motion"],
       "tools": ["photoshop", "after effects", "illustrator"],
       "cardSrc": "/works/ds1/ds1.mp4",
       "coverSrc": "/works/ds1/ds1.mp4",
@@ -184,7 +184,7 @@
     },
     {
       "title": "Double Scorpio Work Compilation",
-      "labels": ["Graphic Design"],
+      "labels": ["Digital Marketing", "Branding"],
       "tools": ["photoshop", "indesign", "illustrator"],
       "cardSrc": "/works/ds2/ds_card.mp4",
       "coverSrc": "/works/ds2/ds_cover.mp4",
@@ -238,7 +238,7 @@
     },
     {
       "title": "Dai Hachi Branding",
-      "labels": ["Graphic Design"],
+      "labels": ["Branding"],
       "tools": ["photoshop", "indesign", "illustrator"],
       "cardSrc": "/works/daihachi/daihachi3.jpg",
       "coverSrc": "/works/daihachi/daihachi1.jpg",
@@ -287,7 +287,7 @@
     },
     {
       "title": "420 Times Square Billboard",
-      "labels": ["Graphic Design", "Motion"],
+      "labels": ["Digital Marketing", "Motion"],
       "tools": ["photoshop", "after effects", "illustrator"],
       "cardSrc": "/works/billboard/billboard1.mp4",
       "coverSrc": "/works/billboard/billboard2.mp4",
@@ -309,7 +309,7 @@
     },
     {
       "title": "Lucha Libre Packaging",
-      "labels": ["Graphic Design", "Packaging"],
+      "labels": ["Branding", "Packaging"],
       "tools": ["photoshop", "indesign", "illustrator"],
       "cardSrc": "/works/lucha/lucha5.jpg",
       "coverSrc": "/works/lucha/lucha1.jpg",
@@ -352,7 +352,7 @@
     },
     {
       "title": "Motion Design Collection",
-      "labels": ["Motion", "Graphic Design"],
+      "labels": ["Motion"],
       "tools": ["photoshop", "after effects", "illustrator"],
       "cardSrc": "/works/animations/animation4.mp4",
       "coverSrc": "/works/animations/animation1.gif",
@@ -379,7 +379,7 @@
     },
     {
       "title": "UI Animation Experimentations",
-      "labels": ["Motion", "Graphic Design"],
+      "labels": ["Motion", "UI Design"],
       "tools": ["figma", "after effects", "illustrator"],
       "cardSrc": "/works/web_motion/web_motion3.mp4",
       "coverSrc": "/works/web_motion/web_motion1.mp4",
