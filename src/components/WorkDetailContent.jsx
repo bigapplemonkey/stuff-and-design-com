@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import AnimatedComponent from './animations/AnimatedComponent';
 import MediaGrid from './MediaGrid';
 import MediaItem from './MediaItem';
@@ -5,13 +6,31 @@ import ScrollToTopButton from './ScrollToTopButton';
 import WorkCard from './WorkCard';
 
 const WorkDetailContent = ({ coverSrc, coverAlt, content, moreWork }) => {
+  const [canPlayCover, setCanPlayCover] = useState(true);
+
   const isVideo = src => src.endsWith('.mp4');
+
+  const handleCanPlayCover = () => {
+    setCanPlayCover(true);
+  };
+
+  const handleErrorCover = () => {
+    setCanPlayCover(false);
+  };
 
   return (
     <div className="work-detail-content">
       <div className="work-detail-cover">
         {isVideo(coverSrc) ? (
-          <video autoPlay loop muted playsInline>
+          <video
+            autoPlay={canPlayCover}
+            loop
+            muted
+            playsInline
+            controls={!canPlayCover} // Show controls if autoplay is not allowed
+            onCanPlay={handleCanPlayCover}
+            onError={handleErrorCover}
+          >
             <source src={coverSrc} type="video/mp4" />
             Your browser does not support the video tag.
           </video>

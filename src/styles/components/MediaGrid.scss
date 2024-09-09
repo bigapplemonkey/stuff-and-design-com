@@ -44,6 +44,10 @@
   object-fit: cover;
 }
 
+iframe {
+  min-height: 31.25rem;
+}
+
 @media screen and (max-width: $mobile-breakpoint) {
   .media-grid {
     grid-template-columns: 1fr;
