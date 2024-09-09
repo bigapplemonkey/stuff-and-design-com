@@ -102,7 +102,7 @@ const WorkCard = ({
             {title}
           </motion.h2>
           <div className="work-card-labels">
-            {labels.map((label, idx) => (
+            {labels.sort().map((label, idx) => (
               <motion.div
                 className="work-card-label work-card-label-type"
                 key={label}

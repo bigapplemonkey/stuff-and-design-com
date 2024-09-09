@@ -11,7 +11,7 @@ const WorkDetailInfo = ({ title, summary, labels, tools }) => {
         <div className="work-kind-tags work-kind-tags-type">
           <div>Tags</div>
           <div className="work-tags">
-            {labels.map(tag => {
+            {labels.sort().map(tag => {
               return (
                 <div className="filter filter-type" key={tag}>
                   {tag}
@@ -23,7 +23,7 @@ const WorkDetailInfo = ({ title, summary, labels, tools }) => {
         <div className="work-kind-tools work-kind-tools-type">
           <div>Tools</div>
           <div className="work-tools">
-            {tools.map(tool => {
+            {tools.sort().map(tool => {
               return (
                 <div className="filter filter-type" key={tool}>
                   {tool}
