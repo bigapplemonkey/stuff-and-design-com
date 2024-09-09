@@ -120,8 +120,13 @@
           "mediaItems": [
             {
               "src": "/works/honeysuckle/honey2.jpg",
-              "alt": "A beautiful landscape",
-              "width": 6
+              "alt": "Left page of magazine spread",
+              "width": 3
+            },
+            {
+              "src": "/works/honeysuckle/honey3.jpg",
+              "alt": "Right page of magazine spread",
+              "width": 3
             }
           ],
           "afterParagraph": null
