@@ -1,7 +1,41 @@
 // External
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+// @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../../public/fonts/Inconsolata/Inconsolata-Regular.ttf')
+    format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../../public/fonts/Inconsolata/Inconsolata-Medium.ttf')
+    format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../../public/fonts/Inconsolata/Inconsolata-SemiBold.ttf')
+    format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../../public/fonts/Inconsolata/Inconsolata-Black.ttf')
+    format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
 
 // Variables
 @import 'utilities/variables';
@@ -18,6 +52,7 @@
 // Animations
 @import 'animations/AppLoader';
 @import 'animations/HoverImageAnimation';
+@import 'animations/TransitionWrapper';
 
 // pages
 // @import 'pages/work';
@@ -32,6 +67,15 @@
 @import 'components/EmailCTA';
 @import 'components/SiteStatus';
 @import 'components/MobileMenu';
+@import 'components/Filter';
+@import 'components/WorkCard';
+@import 'components/WorkGrid';
+@import 'components/WorkSection';
+@import 'components/ScrollToTopButton';
+@import 'components/WorkDetailBack';
+@import 'components/WorkDetailInfo';
+@import 'components/WorkDetailContent';
+@import 'components/MediaGrid';
 
 // Utils
 // @import 'utilities/functions';

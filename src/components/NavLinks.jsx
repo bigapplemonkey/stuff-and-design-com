@@ -47,9 +47,9 @@ const NavLink = ({ name, to, openInNewTab = false, isUnderline = true }) => {
   return LinkComponent;
 };
 
-const NavLinks = ({ links, isUnderline = true }) => (
+const NavLinks = ({ links, isUnderline = true, isDark = false }) => (
   <nav>
-    <ul className="nav-links">
+    <ul className={`nav-links${isDark ? ' is-dark' : ''}`}>
       {links.map(link => (
         <li
           className={`nav-link nav-type${link.isDisabled ? ' disabled' : ''}`}

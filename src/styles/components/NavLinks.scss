@@ -6,6 +6,15 @@
   gap: 1.5rem;
 }
 
+.is-dark {
+  &.nav-links {
+    backdrop-filter: blur(32px);
+    background-color: rgb(194 194 191 / 70%);
+    border-radius: 16px;
+    padding: 0.7rem 2rem;
+  }
+}
+
 .nav-link {
   display: flex;
   justify-content: center;

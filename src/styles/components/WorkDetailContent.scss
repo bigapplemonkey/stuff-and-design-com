@@ -1,0 +1,130 @@
+.work-detail-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+  background-color: map-get($colors, black);
+  z-index: 5;
+}
+
+.limit-width {
+  max-width: 1880px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-detail-cover {
+  display: flex;
+  //   padding: 2.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
+
+  img,
+  video {
+    // height: 38.75rem;
+    align-self: stretch;
+    width: 100%; /* Let width adjust automatically */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+  }
+}
+
+.work-detail-paragraph {
+  display: flex;
+  padding: 3.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+  max-width: 1880px;
+  margin: 0 auto;
+  p {
+    width: 45rem;
+  }
+}
+
+.work-detail-content-item {
+  width: 100%;
+}
+
+.work-detail-media {
+  display: flex;
+  padding: 0.625rem 2.5rem;
+  align-items: flex-start;
+  gap: 2.5rem;
+  align-self: stretch;
+}
+
+.more-work {
+  display: flex;
+  padding: 4rem 2.5rem 6rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+  max-width: 1880px;
+  margin: 0 auto;
+}
+
+.more-work-header {
+  display: flex;
+  height: 6.6875rem;
+  padding-top: 5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+  .work-detail-cover {
+    // padding: 2.5rem 1.25rem;
+  }
+  .work-detail-paragraph {
+    padding: 3.75rem 2.5rem;
+    p {
+      width: auto;
+      max-width: 45rem;
+    }
+  }
+
+  .work-detail-media {
+    padding: 0.625rem 1.25rem;
+  }
+
+  .more-work {
+    padding: 2rem 1.25rem 6rem;
+  }
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .work-detail-cover {
+    // padding: 2.5rem 1rem;
+  }
+
+  .work-detail-paragraph {
+    padding: 3rem 2.222rem;
+    p {
+      align-self: stretch;
+      width: auto;
+    }
+  }
+
+  .work-detail-media {
+    padding: 0.625rem 1rem;
+  }
+
+  .more-work {
+    padding: 2rem 1rem 6rem;
+  }
+}
+
+@media screen and (min-width: $large-desktop-breakpoint) {
+  /* No rules specified; remove or add as needed */
+}

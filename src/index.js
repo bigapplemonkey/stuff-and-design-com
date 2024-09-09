@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { DataContextProvider } from './context/DataContext';
+import ScrollToTop from './components/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <DataContextProvider>
       <Router>
-        <Routes>
-          <Route path="/" element={<App />} />
-        </Routes>
+        <ScrollToTop delayInSeconds={0.95} />
+        <App />
       </Router>
     </DataContextProvider>
   </React.StrictMode>

@@ -1,6 +1,6 @@
 {
   "site_status": {
-    "message": "Oops! This site is still baking in the web oven. Please check back soon for the finished masterpiece! Feel free to peek at",
+    "message": "This site is still baking in the web oven, please check back soon for the finished masterpiece!",
     "link": "https://github.com/bigapplemonkey/stuff-and-design-com"
   },
   "personal": {
@@ -37,28 +37,372 @@
   ],
   "works": [
     {
-      "type": "Web Development",
-      "feature_image": "https://source.unsplash.com/collection/8497941/430x270",
-      "title": "Discover the Best Resources to Enhance",
-      "tags": "Branding / UI.UX"
+      "title": "Editorial Projects",
+      "labels": ["Editorial"],
+      "tools": ["photoshop", "indesign", "illustrator"],
+      "cardSrc": "/works/editorial1/editorial1.jpg",
+      "coverSrc": "/works/editorial1/editorial1.mp4",
+      "coverAlt": "Editorial work",
+      "summary": "Here you'll find a selection of my projects across various platforms and topics. From articles and blog posts to feature pieces and edits, this collection showcases my skills in crafting and refining content",
+      "content": [
+        {
+          "beforeParagraph": "This series features three full spreads I created for Destinations magazine, each showcasing the exotic charm of different tourist spots in India. We aimed for an elegant, modern look, with typography and colors inspired by the vibrant scenery and architecture captured in the stunning photography.",
+          "mediaItems": [
+            {
+              "src": "/works/editorial1/editorial3.jpg",
+              "alt": "Opening spread",
+              "width": 6
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": null,
+          "mediaItems": [
+            {
+              "src": "/works/editorial1/editorial4.jpg",
+              "alt": "Kerala magazine spread",
+              "width": 3
+            },
+            {
+              "src": "/works/editorial1/editorial5.jpg",
+              "alt": "Kerala magazine spread",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": null,
+          "mediaItems": [
+            {
+              "src": "/works/editorial1/editorial6.jpg",
+              "alt": "Rajasthan magazine spread",
+              "width": 3
+            },
+            {
+              "src": "/works/editorial1/editorial7.jpg",
+              "alt": "'Rajasthan magazine spread",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": "This magazine cover for a snowboarding publication features a vibrant, urban design that reflects street culture. The cover combines bold graphics and bright colors, highlighting the energetic and dynamic nature of the sport. It effectively merges the gritty aesthetics of city life with the excitement of snowboarding, providing a striking visual representation of both worlds.",
+          "mediaItems": [
+            {
+              "src": "/works/editorial1/editorial8.jpg",
+              "alt": "Hero magazine cover",
+              "width": 3
+            },
+            {
+              "src": "/works/editorial1/editorial9.jpg",
+              "alt": "Hero magazine cover",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
     },
     {
-      "type": "UI Design",
-      "feature_image": "https://source.unsplash.com/collection/8497941/430x271",
-      "title": "Discover the Best Resources to Enhance",
-      "tags": "Branding / UI.UX"
+      "title": "Honeysuckle Spread",
+      "labels": ["Editorial"],
+      "tools": ["photoshop", "indesign"],
+      "cardSrc": "/works/honeysuckle/honey1.jpg",
+      "coverSrc": "/works/honeysuckle/honey1.jpg",
+      "coverAlt": "Spread design for Honeysuckle Magazine",
+      "summary": "A dynamic editorial spread was created for Volume XIV of HoneySuckle Magazine, a cannabis publication. The design features vibrant visuals and engaging layouts, reflecting the magazine's modern style and focus on cannabis culture",
+      "content": [
+        {
+          "beforeParagraph": "The editorial spread for Volume XIV of HoneySuckle spotlights former professional football player Chris Ball and his family as they forge a legacy in the cannabis industry. The design employs classic black and white imagery to underscore the elegance of their journey, while bold, vibrant typography adds a dynamic touch.",
+          "mediaItems": [
+            {
+              "src": "/works/honeysuckle/honey2.jpg",
+              "alt": "Left page of magazine spread",
+              "width": 3
+            },
+            {
+              "src": "/works/honeysuckle/honey3.jpg",
+              "alt": "Right page of magazine spread",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
     },
     {
-      "type": "Motion",
-      "feature_image": "https://source.unsplash.com/collection/8497941/430x272",
-      "title": "Discover the Best Resources to Enhance",
-      "tags": "Branding / UI.UX"
+      "title": "Double Scorpio Anniversary",
+      "labels": ["Digital Marketing", "Motion"],
+      "tools": ["photoshop", "after effects", "illustrator"],
+      "cardSrc": "/works/ds1/ds1.mp4",
+      "coverSrc": "/works/ds1/ds1.mp4",
+      "coverAlt": "Double Scorpio Anniversary Series",
+      "summary": "This Instagram series celebrates Double Scorpio's 7-year milestone, inspired by the nostalgic charm of 80s VHS media with a hint of Y2K flair",
+      "content": [
+        {
+          "beforeParagraph": "The design merges retro 80s aesthetics with modern elements, featuring playful distortions of Double Scorpio's logos and branding. By combining contemporary typography with vintage-inspired graphics, the series bridges past and present, creating a visually striking and memorable experience.",
+          "mediaItems": [
+            {
+              "src": "/works/ds1/ds3.jpg",
+              "alt": "Double Scorpio Story Series",
+              "width": 6
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": "The second design series for Double Scorpio continues the 80s VHS inspiration but with a vibrant twist. This iteration features a more colorful palette, enhancing the nostalgic charm with bold, eye-catching hues. The graphics maintain playful distortions and modern typography, creating a lively and engaging visual experience that celebrates both retro flair and contemporary style.",
+          "mediaItems": [
+            {
+              "src": "/works/ds1/ds4.jpg",
+              "alt": "Double Scorpio Post Series",
+              "width": 6
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": null,
+          "mediaItems": [
+            {
+              "src": "/works/ds1/ds2.mp4",
+              "alt": "Double Scorpio Post Series",
+              "width": 3
+            },
+            {
+              "src": "/works/ds1/ds5.mp4",
+              "alt": "Double Scorpio Post Series",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
     },
     {
-      "type": "Graphic Design",
-      "feature_image": "https://source.unsplash.com/collection/8497941/430x273",
-      "title": "Discover the Best Resources to Enhance",
-      "tags": "Branding / UI.UX"
+      "title": "Double Scorpio Work Compilation",
+      "labels": ["Digital Marketing", "Branding"],
+      "tools": ["photoshop", "indesign", "illustrator"],
+      "cardSrc": "/works/ds2/ds_card.mp4",
+      "coverSrc": "/works/ds2/ds_cover.mp4",
+      "coverAlt": "Double Scorpio Work Compilation",
+      "summary": "This project showcases design work for Double Scorpio, including a vibrant party flyer and social media graphics for the event, a holiday invitation, and refined email signatures. Each piece reflects the brand's dynamic style and enhances their event promotions",
+      "content": [
+        {
+          "beforeParagraph": "The party flyer and social media graphics were designed with the night club's sensual vibe in mind, incorporating 70s disco influences. The visuals feature a blend of fluorescent and smoky elements, evoking the vibrant and immersive ambiance of club environments.",
+          "mediaItems": [
+            {
+              "src": "/works/ds2/ds1.jpg",
+              "alt": "Double Scorpio's party social media",
+              "width": 3
+            },
+            {
+              "src": "/works/ds2/ds2.jpg",
+              "alt": "Double Scorpio's party flyer",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": "The holiday invitation channels a Krampus theme, embracing a dark and playful aesthetic. The design highlights bold, edgy elements and a moody color palette, capturing the unique and mischievous spirit of the season.",
+          "mediaItems": [
+            {
+              "src": "/works/ds2/ds3.jpg",
+              "alt": "Double Scorpio's holiday invitation's art",
+              "width": 3
+            },
+            {
+              "src": "/works/ds2/ds4.jpg",
+              "alt": "Double Scorpio's holiday invitation",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": "The email signatures were crafted to align with Double Scorpio's branding, incorporating their vibrant color palette. The design ensures consistency with their visual identity while adding a touch of personality and professionalism to their digital communications.",
+          "mediaItems": [
+            {
+              "src": "/works/ds2/ds5.jpg",
+              "alt": "Double Scorpio's email signatures",
+              "width": 6
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
+    },
+    {
+      "title": "Dai Hachi Branding",
+      "labels": ["Branding"],
+      "tools": ["photoshop", "indesign", "illustrator"],
+      "cardSrc": "/works/daihachi/daihachi3.jpg",
+      "coverSrc": "/works/daihachi/daihachi1.jpg",
+      "coverAlt": "Dai Hachi Sign",
+      "summary": " Dai Hachi is a Japanese restaurant with a refined yet relaxed atmosphere, offering a mix of traditional cuisine in a modern setting. The branding needed to reflect this balance of elegance and simplicity",
+      "content": [
+        {
+          "beforeParagraph": "The goal was to create a visual identity that felt both sophisticated and approachable, mirroring the restaurant's ambiance. The logo design took inspiration from the natural, slender form of bamboo trees, translating these organic shapes into clean, modern typography. This choice gave the logo a minimalist yet distinctive look that aligned with the restaurant's philosophy.",
+          "mediaItems": [
+            {
+              "src": "/works/daihachi/daihachi2.jpg",
+              "alt": "Dai Hachi logo",
+              "width": 3
+            },
+            {
+              "src": "/works/daihachi/daihachi3.jpg",
+              "alt": "Dai Hachi coaster",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": null,
+          "mediaItems": [
+            {
+              "src": "/works/daihachi/daihachi4.jpg",
+              "alt": "Dai Hachi logo and branding",
+              "width": 6
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": "An earthy color palette of greens, browns, and warm beige tones was used to further ground the brand in natural elements, evoking a calm and serene atmosphere. The branding was also enriched by the addition of circular abstract shapes, which emerged from experimenting with imagery from a local street art piece. These subtle, organic forms added a dynamic, artistic touch to the overall visual identity, tying together the traditional and modern elements of Dai Hachi's brand.",
+          "mediaItems": [
+            {
+              "src": "/works/daihachi/daihachi5.jpg",
+              "alt": "Dai Hachi menu design",
+              "width": 6
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
+    },
+    {
+      "title": "420 Times Square Billboard",
+      "labels": ["Digital Marketing", "Motion"],
+      "tools": ["photoshop", "after effects", "illustrator"],
+      "cardSrc": "/works/billboard/billboard1.mp4",
+      "coverSrc": "/works/billboard/billboard2.mp4",
+      "coverAlt": "Honeysuckle 420 Times Square billboard",
+      "summary": "This project entailed creating an animation for the Nasdaq billboard and other billboards in Times Square to celebrate 420",
+      "content": [
+        {
+          "beforeParagraph": "The animated billboard campaign, designed for the Nasdaq billboard in Times Square and additional locations, celebrated 420 by highlighting Indigenous Cannabis themes. The design, inspired by Indigenous imagery and natural elements, employed earthy tones and clean typography with simple graphics to deliver a respectful and engaging visual message. Commissioned by Honeysuckle and supported by Tilt Holdings, Little Beach Harvest, the Shinnecock Nation, Connor Green, and the Indigenous Cannabis Coalition, the project aimed to honor and promote Indigenous Cannabis culture.",
+          "mediaItems": [
+            {
+              "src": "https://www.youtube.com/watch?v=6eQLh4RQ9Og&t=3s",
+              "alt": "Honeysuckle 420 Times Square billboard",
+              "width": 6
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
+    },
+    {
+      "title": "Lucha Libre Packaging",
+      "labels": ["Branding", "Packaging"],
+      "tools": ["photoshop", "indesign", "illustrator"],
+      "cardSrc": "/works/lucha/lucha5.jpg",
+      "coverSrc": "/works/lucha/lucha1.jpg",
+      "coverAlt": "Lucha Libre Packaging",
+      "summary": "This branding project involved creating a logo and packaging design for a new churro snack brand, Lucha Libre. The goal was to capture the vibrant energy and tradition of Mexican lucha libre while maintaining a modern and youthful aesthetic",
+      "content": [
+        {
+          "beforeParagraph": "The logo design aimed to balance the excitement of lucha libre with the classic elements of the sport. A bold, dynamic typography was chosen to reflect the action and intensity of wrestling, while the vibrant color palette and luchador-inspired illustration added a playful and youthful touch.",
+          "mediaItems": [
+            {
+              "src": "/works/lucha/lucha2.jpg",
+              "alt": "Lucha Libre logo explorations",
+              "width": 3
+            },
+            {
+              "src": "/works/lucha/lucha3.jpg",
+              "alt": "Lucha Libre final logo",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        },
+        {
+          "beforeParagraph": "The packaging design incorporated elements from traditional lucha libre posters, such as bold colors, dramatic typography, and iconic imagery. The layout was carefully crafted to create a visually striking and memorable package that would stand out.",
+          "mediaItems": [
+            {
+              "src": "/works/lucha/lucha4.jpg",
+              "alt": "Lucha Libre illustration",
+              "width": 3
+            },
+            {
+              "src": "/works/lucha/lucha5.jpg",
+              "alt": "Lucha Libre packaging",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
+    },
+    {
+      "title": "Motion Design Collection",
+      "labels": ["Motion"],
+      "tools": ["photoshop", "after effects", "illustrator"],
+      "cardSrc": "/works/animations/animation4.mp4",
+      "coverSrc": "/works/animations/animation1.gif",
+      "coverAlt": "Logo animation",
+      "summary": "A showcase of three distinct animations that blend vibrant pastel colors with sleek design elements. Each animation demonstrates a balance of dynamic movement and refined visual style, pushing the boundaries of modern digital aesthetics",
+      "content": [
+        {
+          "beforeParagraph": "This collection features three distinct animations that harmoniously blend vibrant pastel colors with refined design elements. The logo animation delivers a snappy and elegant visual, while the typographic motion brings playful sophistication to text. The final piece explores abstract shapes and colors in a dynamic, experimental style. Together, these animations showcase a seamless integration of dynamic movement and modern aesthetics.",
+          "mediaItems": [
+            {
+              "src": "/works/animations/animation2.gif",
+              "alt": "Typographic animation",
+              "width": 3
+            },
+            {
+              "src": "/works/animations/animation3.mp4",
+              "alt": "Shape animation",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
+    },
+    {
+      "title": "UI Animation Experimentations",
+      "labels": ["Motion", "UI Design"],
+      "tools": ["figma", "after effects", "illustrator"],
+      "cardSrc": "/works/web_motion/web_motion3.mp4",
+      "coverSrc": "/works/web_motion/web_motion1.mp4",
+      "coverAlt": "Sign up page aniamtion",
+      "summary": "A collection of UI animation explorations, showcasing diverse approaches to enhancing user interactions with dynamic visual effects",
+      "content": [
+        {
+          "beforeParagraph": "This series features a sleek and engaging sign-up page animation that elegantly guides users through the process. A playful button animation injects color and fun into every click, while explorations of UI elements like scroll bars, dimmers, selects, and switches experiment with color and movement to create a lively user experiences.",
+          "mediaItems": [
+            {
+              "src": "/works/web_motion/web_motion3.mp4",
+              "alt": "Button animation",
+              "width": 3
+            },
+            {
+              "src": "/works/web_motion/web_motion2.mp4",
+              "alt": "UI elements animation",
+              "width": 3
+            }
+          ],
+          "afterParagraph": null
+        }
+      ]
     }
   ]
 }

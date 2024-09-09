@@ -4,7 +4,7 @@
   position: sticky;
   top: 0;
   align-self: stretch;
-  z-index: 2;
+  z-index: 10;
   justify-content: center;
   align-items: center;
   border-bottom: map-get($border-sizes, light) solid map-get($colors, black);
@@ -20,6 +20,18 @@
   opacity: 0.99;
   max-width: $extra-large-breakpoint;
   flex: 1 0 0;
+}
+
+.is-dark {
+  &.nav {
+    border: none;
+  }
+
+  .nav-content {
+    opacity: 1;
+    backdrop-filter: none;
+    justify-content: right;
+  }
 }
 
 @media screen and (max-width: $tablet-breakpoint) {

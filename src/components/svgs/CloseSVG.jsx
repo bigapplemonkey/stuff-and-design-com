@@ -6,10 +6,8 @@ const CloseSVG = () => {
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <title>close [#1511]</title>
-      <desc>Created with Sketch.</desc>
       <g
-        id="Page-1"
+        id="close-icon"
         stroke="none"
         strokeWidth="1"
         fill="none"
