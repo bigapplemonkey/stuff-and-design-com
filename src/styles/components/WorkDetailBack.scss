@@ -38,15 +38,15 @@
   .work-back {
     padding: 5rem 1.25rem 0.625rem;
   }
+
+  .sticky {
+    position: static;
+  }
 }
 
 @media screen and (max-width: $mobile-breakpoint) {
   .work-back {
     padding: 5rem 1rem 0.625rem;
-  }
-
-  .sticky {
-    position: static;
   }
 }
 
