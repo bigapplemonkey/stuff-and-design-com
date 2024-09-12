@@ -75,6 +75,7 @@
 
   .work-detail-header {
     width: auto;
+    gap: 1.3rem;
   }
 
   .work-kind {
@@ -88,5 +89,9 @@
 @media screen and (max-width: $mobile-breakpoint) {
   .work-detail-info {
     padding: 7.5rem 1rem;
+  }
+
+  .work-detail-header {
+    gap: 1rem;
   }
 }
