@@ -43,10 +43,10 @@
       "cardSrc": "/works/editorial1/editorial1.jpg",
       "coverSrc": "/works/editorial1/editorial1.mp4",
       "coverAlt": "Editorial work",
-      "summary": "Here you'll find a selection of my projects across various platforms and topics. From articles and blog posts to feature pieces and edits, this collection showcases my skills in crafting and refining content",
+      "summary": "Here you'll find a selection of projects from various platforms and topics, highlighting skills in graphic design and editorial layouts",
       "content": [
         {
-          "beforeParagraph": "This series features three full spreads I created for Destinations magazine, each showcasing the exotic charm of different tourist spots in India. We aimed for an elegant, modern look, with typography and colors inspired by the vibrant scenery and architecture captured in the stunning photography.",
+          "beforeParagraph": "This series features three full spreads created for Destinations Magazine; showcasing the exotic charm of different tourist spots in India. Aiming for an elegant, modern look, the design is inspired by the vibrant scenery and architecture captured in stunning photography.",
           "mediaItems": [
             {
               "src": "/works/editorial1/editorial3.jpg",
@@ -89,7 +89,7 @@
           "afterParagraph": null
         },
         {
-          "beforeParagraph": "This magazine cover for a snowboarding publication features a vibrant, urban design that reflects street culture. The cover combines bold graphics and bright colors, highlighting the energetic and dynamic nature of the sport. It effectively merges the gritty aesthetics of city life with the excitement of snowboarding, providing a striking visual representation of both worlds.",
+          "beforeParagraph": "The magazine cover for a snowboarding publication features an energetic, urban design that reflects street culture. Combining bold graphics and bright colors, it merges the gritty aesthetics of city life with the excitement of snowboarding.",
           "mediaItems": [
             {
               "src": "/works/editorial1/editorial8.jpg",
@@ -113,10 +113,10 @@
       "cardSrc": "/works/honeysuckle/honey1.jpg",
       "coverSrc": "/works/honeysuckle/honey1.jpg",
       "coverAlt": "Spread design for Honeysuckle Magazine",
-      "summary": "A dynamic editorial spread was created for Volume XIV of HoneySuckle Magazine, a cannabis publication. The design features vibrant visuals and engaging layouts, reflecting the magazine's modern style and focus on cannabis culture",
+      "summary": "An editorial spread for HoneySuckle Magazine, a cannabis publication, reflecting modern style and focus on cannabis culture",
       "content": [
         {
-          "beforeParagraph": "The editorial spread for Volume XIV of HoneySuckle spotlights former professional football player Chris Ball and his family as they forge a legacy in the cannabis industry. The design employs classic black and white imagery to underscore the elegance of their journey, while bold, vibrant typography adds a dynamic touch.",
+          "beforeParagraph": "The editorial spread for Volume XIV of HoneySuckle spotlights former professional football player Chris Ball and his family as they forge a legacy in the cannabis industry. The design employs classic black and white imagery, while bold, vibrant typography adds a dynamic touch.",
           "mediaItems": [
             {
               "src": "/works/honeysuckle/honey2.jpg",
@@ -143,7 +143,7 @@
       "summary": "This Instagram series celebrates Double Scorpio's 7-year milestone, inspired by the nostalgic charm of 80s VHS media with a hint of Y2K flair",
       "content": [
         {
-          "beforeParagraph": "The design merges retro 80s aesthetics with modern elements, featuring playful distortions of Double Scorpio's logos and branding. By combining contemporary typography with vintage-inspired graphics, the series bridges past and present, creating a visually striking and memorable experience.",
+          "beforeParagraph": "The design merges retro 80s aesthetics with modern elements, featuring playful distortions of Double Scorpio's logos and branding. Combining contemporary typography with vintage-inspired graphics, it creates a visually striking and memorable experience.",
           "mediaItems": [
             {
               "src": "/works/ds1/ds3.jpg",
@@ -154,7 +154,7 @@
           "afterParagraph": null
         },
         {
-          "beforeParagraph": "The second design series for Double Scorpio continues the 80s VHS inspiration but with a vibrant twist. This iteration features a more colorful palette, enhancing the nostalgic charm with bold, eye-catching hues. The graphics maintain playful distortions and modern typography, creating a lively and engaging visual experience that celebrates both retro flair and contemporary style.",
+          "beforeParagraph": "The second design series continues the 80s VHS inspiration but with a colorful twist. A more vibrant palette enhances the nostalgic charm with bold hues, maintaining playful distortions and modern typography for a fun and playful visual experience.",
           "mediaItems": [
             {
               "src": "/works/ds1/ds4.jpg",
@@ -189,10 +189,10 @@
       "cardSrc": "/works/ds2/ds_card.mp4",
       "coverSrc": "/works/ds2/ds_cover.mp4",
       "coverAlt": "Double Scorpio Work Compilation",
-      "summary": "This project showcases design work for Double Scorpio, including a vibrant party flyer and social media graphics for the event, a holiday invitation, and refined email signatures. Each piece reflects the brand's dynamic style and enhances their event promotions",
+      "summary": "This project showcases design work for Double Scorpio, including a party flyer, social media graphics, holiday invitation, and email signatures, reflecting the brand's dynamic style",
       "content": [
         {
-          "beforeParagraph": "The party flyer and social media graphics were designed with the night club's sensual vibe in mind, incorporating 70s disco influences. The visuals feature a blend of fluorescent and smoky elements, evoking the vibrant and immersive ambiance of club environments.",
+          "beforeParagraph": "The party flyer and social media graphics were designed with the nightclub's sensual vibe and incorporating 70’s disco influences. The visuals feature a blend of fluorescent and smoky elements, evoking the ambiance of the club scene.",
           "mediaItems": [
             {
               "src": "/works/ds2/ds1.jpg",
@@ -208,7 +208,7 @@
           "afterParagraph": null
         },
         {
-          "beforeParagraph": "The holiday invitation channels a Krampus theme, embracing a dark and playful aesthetic. The design highlights bold, edgy elements and a moody color palette, capturing the unique and mischievous spirit of the season.",
+          "beforeParagraph": "The holiday invitation layout is a Krampus theme with a dark and playful aesthetic. Bold, edgy elements and a moody color palette is a unique take on the spirit of the season.",
           "mediaItems": [
             {
               "src": "/works/ds2/ds3.jpg",
@@ -224,7 +224,7 @@
           "afterParagraph": null
         },
         {
-          "beforeParagraph": "The email signatures were crafted to align with Double Scorpio's branding, incorporating their vibrant color palette. The design ensures consistency with their visual identity while adding a touch of personality and professionalism to their digital communications.",
+          "beforeParagraph": "The email signatures designed to align with Double Scorpio's branding, incorporating their color palette to build consistency, personality and professionalism to their digital communications.",
           "mediaItems": [
             {
               "src": "/works/ds2/ds5.jpg",
@@ -383,7 +383,7 @@
       "tools": ["figma", "after effects", "illustrator"],
       "cardSrc": "/works/web_motion/web_motion3.mp4",
       "coverSrc": "/works/web_motion/web_motion1.mp4",
-      "coverAlt": "Sign up page aniamtion",
+      "coverAlt": "Sign up page animation",
       "summary": "A collection of UI animation explorations, showcasing diverse approaches to enhancing user interactions with dynamic visual effects",
       "content": [
         {
@@ -401,6 +401,86 @@
             }
           ],
           "afterParagraph": null
+        }
+      ]
+    },
+    {
+      "title": "Poster Explorations",
+      "labels": ["Poster Design"],
+      "tools": ["photoshop", "illustrator"],
+      "cardSrc": "/works/posters/poster1.jpg",
+      "coverSrc": "/works/posters/poster1.jpg",
+      "coverAlt": "Met Opera poster",
+      "summary": "Presenting a range of experimental posters, each exploring different design approaches and influences. The collection reflects a commitment to creative experimentation and a thoughtful engagement with historical design principles",
+      "content": [
+        {
+          "beforeParagraph": "Inspired by Armin Hofmann's work, this series reinterprets posters for 'Wilhelm Tell' through experimental photography. It employs a contemporary visual approach, exploring various uses of light and composition.",
+          "mediaItems": [
+            {
+              "src": "/works/posters/poster2.jpg",
+              "alt": "Wilhelm Tell poster exploration",
+              "width": 3
+            },
+            {
+              "src": "/works/posters/poster3.jpg",
+              "alt": "Wilhelm Tell poster exploration",
+              "width": 3
+            }
+          ],
+          ",afterParagraph": null
+        },
+        {
+          "beforeParagraph": "This series explores abstract design through various colors and shapes. Each poster delves into visual abstraction, focusing on how color and form interact to convey different emotions.",
+          "mediaItems": [
+            {
+              "src": "/works/posters/poster4.jpg",
+              "alt": "Abstract poster exploration",
+              "width": 2
+            },
+            {
+              "src": "/works/posters/poster5.jpg",
+              "alt": "Abstract poster exploration",
+              "width": 2
+            },
+            {
+              "src": "/works/posters/poster6.jpg",
+              "alt": "Abstract poster exploration",
+              "width": 2
+            }
+          ],
+          ",afterParagraph": null
+        },
+        {
+          "beforeParagraph": "This series features typographic exploration and Swiss-style posters. The typographic pieces experiment with type as a design element, while the Swiss-style posters emphasize clarity and structure.",
+          "mediaItems": [
+            {
+              "src": "/works/posters/poster7.jpg",
+              "alt": "Typographic poster exploration",
+              "width": 3
+            },
+            {
+              "src": "/works/posters/poster8.jpg",
+              "alt": "Swiss-style poster exploration",
+              "width": 3
+            }
+          ],
+          ",afterParagraph": null
+        },
+        {
+          "beforeParagraph": "Inspired by Paul Rand's ABC logo, this final series experiments with abstract forms derived from his design. It reimagines Rand's principles through new, simplified interpretations.",
+          "mediaItems": [
+            {
+              "src": "/works/posters/poster9.jpg",
+              "alt": "ABC logo poster exploration",
+              "width": 3
+            },
+            {
+              "src": "/works/posters/poster10.jpg",
+              "alt": "ABC logo poster exploration",
+              "width": 3
+            }
+          ],
+          ",afterParagraph": null
         }
       ]
     }
